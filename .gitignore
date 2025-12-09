@@ -1,0 +1,43 @@
+backend/target/
+backend/build/
+backend/*.log
+backend/*.class
+backend/*.jar
+backend/*.war
+
+# IDE files
+*.iml
+*.classpath
+*.project
+.idea/
+.vscode/
+
+# OS junk
+*.DS_Store
+
+
+# Node dependencies
+frontend/node_modules/
+
+# Build output
+frontend/payment-ui/build/
+frontend/payment-ui/dist/
+
+# Local environment files
+frontend/payment-ui/.env.local
+frontend/payment-ui/.env.development.local
+frontend/payment-ui/.env.test.local
+frontend/payment-ui/.env.production.local
+
+# Logs
+frontend/payment-ui/npm-debug.log*
+frontend/payment-ui/yarn-debug.log*
+frontend/payment-ui/yarn-error.log*
+frontend/payment-ui/pnpm-debug.log*
+
+# Editor folders
+frontend/.vscode/
+frontend/.idea/
+
+# OS junk files
+frontend/.DS_Store
